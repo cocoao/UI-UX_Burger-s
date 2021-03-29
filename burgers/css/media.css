@@ -1,0 +1,65 @@
+@media screen and (max-width : 1200px){
+  .mainImg .txtBox{padding: 0 50px 0 0;}
+  .mainImg .txtBox h2{font-size: 40px;}
+  .mainImg .txtBox button{width: 45%;}
+  .mainImg .imgWrap{height: 66vh;}
+  .mainImg .imgBox>img{width: 150%;}
+  .mainImg .imgBox p:after{left: -18%; top: 56.5%;}
+  .howSns .howBox .howTit{width: 70%;}
+  .howSns .howBox .snsBox{width: 30%;}
+  .howSns .howBox .howCon .step p{font-size: 14px;}
+  .howSns .howBox .howCon .step img{bottom: 45px;}
+  .howSns .howBox .howCon .step{margin-top: 0;}
+  footer{height: 70px;}
+}
+
+@media screen and (max-width : 950px){
+  .mainImg .imgWrap{height: 55vh;}
+  .mainImg .imgBox{left: 30%;}
+  .mainImg .imgBox>img{width: 160%;}
+  .mainImg .imgBox p:after{left: -23%; font-size: 12px;}
+  .mainImg .txtBox h2{font-size: 30px;}
+  .mainImg .txtBox p{font-size: 12px;}
+  .mainImg .txtBox button{padding: 5px 0;}
+  .howSns .howBox .howTit,.howSns .howBox .snsBox{height: 30px;}
+  .howSns .howBox .howTit em{font-size: 14px;}
+  .howSns .howBox .howCon .step p{font-size: 12px;}
+}
+
+@media screen and (max-width : 750px){
+  .navBox .logo{font-size: 26px; width:40%;}
+  .navBox .nav{font-size: 13px; width: 30%;}
+  .navBox .nav i{font-size: 18px;}
+  .mainImg{flex-wrap: wrap;}
+  .mainImg .imgWrap{order: 1; width: 100%; height: 50vh;}
+  .mainImg .txtBox{order: 2; width: 100%;}
+  .mainImg .imgBox>img{width: 120%;}
+  .mainImg .imgBox p:after{left: -4%; top: 57%;}
+  .mainImg .txtBox{margin-left: 0; padding: 30px 50px 0; text-align: center;}
+  .mainImg .txtBox h2{font-size: 35px;}
+  .mainImg .txtBox button{width: 100%; margin-top: 5px;}
+  .howSns .howBox .howTit{width: 100%;order: 2;margin: 10px 0;}
+  .howSns .howBox .snsBox{width: 60%;order: 1; margin:0 auto; padding: 30px 0; padding: 30px 0 60px;}
+  .howSns .howBox .howCon{order: 3; flex-wrap: wrap; margin: auto; justify-content: flex-start;}
+  .howSns .howBox .howCon .step{height: 150px; padding: 0 25px; width: 25%; margin: 0 10px;}
+  .howSns .howBox .howCon .step p{bottom: 20px;}
+  .howSns{margin: 0 auto 30px;}
+  footer{justify-content: center;}
+  footer p:nth-child(1){display: none;}
+  footer p:nth-child(2){text-align: center;}
+}
+
+@media screen and (max-width : 480px){
+  .navBox{flex-wrap: wrap; height: auto; padding: 15px;}
+  .navBox .logo{order: 1; width: 100%; padding-bottom: 10px;}
+  .navBox .nav,.navBox .nav.rightN{width: 50%; text-align: center; order: 2; border-top: 2px solid #4f6853; padding: 5px 0;}
+  .loginBox{height: auto; justify-content: center; padding: 3px 10px;}
+  .loginBox a{font-size: 12px;}
+  .mainImg .imgWrap{height: 40vh;}
+  .mainImg .imgBox>img{width: 130%;}
+  .mainImg .imgBox p:after{left: -10%; top: 55%; font-size: 12px;}
+  .howSns .howBox .howCon .step{width: 22%; height: 125px; margin: 0 8px;}
+  .howSns .howBox .howCon .step img.howToHover{display: block;}
+  .howSns .howBox .howCon .step p{bottom: 10px;}
+  .mainImg .txtBox h2{font-size: 28px;}
+}

@@ -1,0 +1,44 @@
+header{width: 90%;}
+.navBox{width: 100%; height: 11vh; display: flex; justify-content: space-between; padding: 20px; align-items: flex-end;}
+.navBox .logo{font-family: 'Cinzel' !important; font-size: 30px;color: #4f6853; width: 60%;text-align: center}
+.navBox .nav{color: #4f6853; width: 20%;}
+.navBox .nav.rightN{text-align: right;}
+.navBox .nav i{font-size: 22px; font-weight: 700; font-style: normal;}
+.loginBox{width: 100%; background: #4f6853; padding: 5px 10px; border-radius: 30px; color: #fff; display: flex; justify-content: flex-end; flex-direction: row; align-items: center; height: 4vh;}
+.loginBox a{color: #fff; text-transform: uppercase; padding: 0 8px;}
+
+.mainImg{display: flex; justify-content: space-between; width: 100%;}
+.mainImg .txtBox{width: 40%; height: auto; padding: 0 100px 0 50px; margin-left: 10%; display: flex; justify-content: center; flex-direction: column;}
+.mainImg .txtBox h2{font-size: 50px; font-weight: 300; color: #4f6853;}
+.mainImg .txtBox p{padding: 10px 0; line-height: 1.5;}
+.mainImg .txtBox button{padding: 8px 0; border: 1px solid #4f6853; border-radius: 30px; color: #4f6853; background: transparent; width: 35%; margin-top: 20px; transition: all 0.5s;}
+.mainImg .txtBox button:hover{background: #4f6853; color: #fff;}
+
+.mainImg .imgWrap{width: 55%; position: relative; height: 85vh; overflow: hidden;}
+.mainImg .imgBox{width: 100%; position: relative; height: 85vh; justify-content: center; display: flex; align-items: center; left: 25%; top: 50%; transform: translateY(-50%);}
+.mainImg .imgBox p:after{z-index: 1; left: -12%; position: absolute; top: 60%; animation: changeTxt infinite 36s 1s;content:"";text-align: center;display: block; width: 45px;}
+.mainImg .imgBox>img{position: absolute; width: 140%;}
+.mainImg .imgBox>img:nth-child(2){z-index: 5; animation:rotateImg infinite 36s 1s}
+.mainImg .imgBox>img:nth-child(3){opacity: 0.6;}
+
+.howSns{width: 80%; margin: 0 auto 50px; z-index: 10;}
+.howSns .howBox{display: flex; flex-wrap: wrap;}
+.howSns .howBox .howTit{width: 80%; border: 1px solid #4f6853; border-radius: 30px; color: #4f6853; padding-left: 20px; display: flex; justify-content: space-between; align-items: center; height: 35px; overflow: hidden;}
+.howSns .howBox .howTit em{font-style: normal; font-weight: 600; font-size: 16px;}
+.howSns .howBox .howTit i{font-weight: 800; font-size: 12px; padding: 20px; background: #4f6853; color: #fff; cursor: pointer;}
+.howSns .howBox .snsBox{width: 20%; height: 35px; display: flex; justify-content: space-between; padding-left: 20px; align-items: center;}
+.howSns .howBox .snsBox i{color: #4f6853; font-size: 20px; transition: all 0.5s; cursor: pointer;}
+.howSns .howBox .snsBox i:hover{font-size: 24px;}
+.howSns .howBox .howCon{width: 100%; display: flex; justify-content: space-between; align-items: center;}
+.howSns .howBox .howCon i.fa{color: #4f6853;}
+.howSns .howBox .howCon .step{padding: 30px; position: relative;display: flex; justify-content: center; align-items: center; width: 10%; height: 150px; margin-top: 30px;}
+.howSns .howBox .howCon .step p{text-align: center; display: block; bottom: 0; position: absolute;color: #4f6853;transition: all 0.4s;}
+.howSns .howBox .howCon .step img{width: 100%;position: absolute; bottom: 30px; transition: all 0.4s;}
+.howSns .howBox .howCon .step img.howToHover{display: none;}
+.howSns .howBox .howCon .step:hover .howToHover{display: block;}
+.howSns .howBox .howCon .step:hover p{font-weight: 700;}
+
+footer{width: 100%; height: 100px; background: #4f6853; display: flex; justify-content: space-between; align-items: center; padding: 0 5%; line-height: 1.5; color: #fff; font-size: 12px;}
+footer p:last-child{text-align: right;}
+footer p a{color: #fff; padding: 0 5px;}
+footer p a:hover{text-decoration: #fff underline;}
