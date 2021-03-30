@@ -15,7 +15,7 @@
 @keyframes changeTxt{
   0%{content:"Bun"; opacity: 1;}
   3%{opacity: 0;}
-  10%{content:"Patty"; opacity: 1;}
+  10%{content:"patty"; opacity: 1;}
   13%{opacity: 0;}
   20%{content:"Onion"; opacity: 1;}
   23%{opacity: 0;}
