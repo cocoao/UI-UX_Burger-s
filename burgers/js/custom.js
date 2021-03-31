@@ -31,17 +31,34 @@ $(function(){
     let selNam = $(this).text();
     let paySel = $('.selList p.' + classNam[0]);
     let nowTxt = paySel.text();
-    
     paySel.text(nowTxt + selNam);
-
+  
     if(!$(this).hasClass('click')){
-      let nowTxtDe = paySel.text();
-      let selNamDe = $(this).text();
-      let deTxt = nowTxtDe.splice(indexOf(selNam),1);
-      paySel.text(selNamDe);
-      // let deNowTxt = nowTxtDe.split(" ");
-      // let filtered = deNowTxt.filter((element) => element !== selNam);
-      // document.writeln(filtered);
+      let selClass = $(this).parents('.selectBox').attr('class');
+      let classNam = selClass.split(" ");
+      let selNam = $(this).text();
+      let paySel = $('.selList p.' + classNam[0]);
+      let nowTxt = paySel.text();
+      if(nowTxt.includes(selNam)){
+        paySel.replace(selNam,'');
+      }
     }
   });
+
+  $('.selectBox .select').click(function(){
+    if($(this).hasClass('click')){
+    let eleIndex = $(this).index();
+    let className = $(this).parents('.selectBox').attr('value');
+
+    $('.cusView .' + className + '>img').eq(eleIndex).animate({'left':'0'},300);
+    $('.cusView .' + className + '>img').eq(eleIndex).css({'position':'relative'});
+    if(className == 'bun'){
+      $('.cusView .' + className + '.bunUp>img').eq(eleIndex).animate({'left':'0'},300);
+      $('.cusView .' + className + '.bunDown>img').eq(eleIndex).animate({'left':'0'},300);
+      $('.cusView .' + className + '.bunUp>img').eq(eleIndex).css({'position':'relative'});
+      $('.cusView .' + className + '.bunDown>img').eq(eleIndex).css({'position':'relative'});
+    }
+    }
+  });
+
 });

@@ -19,14 +19,18 @@
 .cusBox .cusSel .select:hover .selHover, .cusBox .cusSel .select.click .selHover{transform: rotateX(0deg); opacity: 1;}
 
 
-.cusBox .viewPay{width: 30%; border: 2px solid #4f6853; border-radius: 10px; padding: 8px;}
-.cusBox .viewPay .cusView{width: 100%; height: 60%;}
+.cusBox .viewPay{width: 30%; border: 2px solid #4f6853; border-radius: 10px; padding: 8px; height: auto; display: flex; flex-direction: column;}
+
+.cusBox .viewPay .cusView{width: 100%; height: 100%; display: flex; justify-content:space-between; align-items: center; flex-direction: column; padding: 20px 0 50px; overflow: hidden;}
+.cusBox .viewPay .cusView>div{width: 100%; height: 100%; position: relative;}
+.cusBox .viewPay .cusView img{width: 100%; height: auto; position: absolute; left: 100%;}
+.cusBox .viewPay .cusView .vegetable{height: auto;}
 
 .cusBox .viewPay .cusPay{width: 100%; height: calc(40% - 10px); background: rgba(0,0,0,0.1);; margin-top: 10px; border-radius: 8px; padding: 0 5px 5px; display: flex; flex-wrap: wrap;}
-.cusBox .viewPay .cusPay .payList{height: 80%; padding: 5px; width: 30%;}
-.cusBox .viewPay .cusPay .selList{height: 80%; padding: 5px; width: 70%;}
+.cusBox .viewPay .cusPay .payList{height: 80%; padding: 5px; width: 30%; display: flex; flex-direction: column; justify-content: space-between;}
+.cusBox .viewPay .cusPay .selList{height: 80%; padding: 5px; width: 70%; display: flex; flex-direction: column; justify-content: space-between;}
 .cusBox .viewPay .cusPay .payList p{text-align: center; color: #4f6853;}
-.cusBox .viewPay .cusPay .payList p, .cusBox .viewPay .cusPay .selList p{padding: 5px 5px 1px; border-bottom: 1px dotted #4f6853; height: 14.5%;}
+.cusBox .viewPay .cusPay .payList p, .cusBox .viewPay .cusPay .selList p{padding: 5px 5px 1px; border-bottom: 1px dotted #4f6853; height: 14.5%; display: flex; align-items: center;}
 .cusBox .viewPay .cusPay .payList p:last-child,.cusBox .viewPay .cusPay .selList p:last-child{border-bottom: 0;}
 
 .cusBox .viewPay .cusPay .paySum{height: 20%; background: #4f6853; border-radius: 5px; width: 100%; display: flex; align-items: center; padding: 5px 15px; color: #fff; justify-content: space-between;}
