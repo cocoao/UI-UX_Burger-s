@@ -31,22 +31,18 @@ $(function(){
     let selNam = $(this).text();
     let paySel = $('.selList p.' + classNam[0]);
     let nowTxt = paySel.text();
-
-    $(this).siblings('.reset').removeClass('click');
-    // paySel.text('');
-
+    
     $(this).toggleClass('click');
     paySel.text(nowTxt + selNam);
-  
+
+    if(nowTxt.includes('선택안함')){
+      $(this).siblings('.reset').removeClass('click');
+      paySel.text(selNam);
+    }
+
     if(!$(this).hasClass('click')){
-      let selClass = $(this).parents('.selectBox').attr('class');
-      let classNam = selClass.split(" ");
-      let selNam = $(this).text();
-      let paySel = $('.selList p.' + classNam[0]);
-      let nowTxt = paySel.text();
-      if(nowTxt.includes(selNam)){
-        paySel.replace(selNam,''); // 한번 더 선택시 삭제 기능 추가해야함
-      }
+      let changTxt = nowTxt.replace(selNam,'');
+      paySel.text(changTxt);
     }
     
     // pay box text delete when no select btn click
@@ -59,24 +55,16 @@ $(function(){
   });
 
   // view box effect
-  $('.selectBox .select').click(function(){
+ $('.selectBox .select').click(function(){
+    $('.selectBox .select.reset').removeClass('on');
     $(this).toggleClass('on');
 
     if($(this).hasClass('on')){
     let eleIndex = $(this).index();
     let className = $(this).parents('.selectBox').attr('value');
 
-      if($(this).parents('.selectBox.selectBox_do')){
-        $('.selectBox .select.reset').removeClass('on');
-        $(this).toggleClass('on');
-        if($('.select').hasClass('on')){
-        $('.cusView .' + className + '>img').eq(eleIndex).animate({'left':'0'},300);
-        $('.cusView .' + className + '>img').eq(eleIndex).css({'position':'relative'});
-        }
-      }
       // remove & insert image when one select tab click
-      if($(this).parents('.selectBox.selectBox_on')){
-        $(this).siblings('.selectBox .select').removeClass('on');
+      if($(this).parents('.selectBox').hasClass('selectBox_on')){
         $(this).toggleClass('on');
         $('.cusView .' + className + '>img').css({'position':'absolute'});
         $('.cusView .' + className + '>img').css({'left':'100%'},300);
@@ -91,13 +79,25 @@ $(function(){
           $('.cusView .' + className + '.bunUp>img').eq(eleIndex).css({'position':'relative'});
           $('.cusView .' + className + '.bunDown>img').eq(eleIndex).css({'position':'relative'});
         }
-      } 
+      }
+
+      if($(this).parents('.selectBox').hasClass('selectBox_do')){
+        let eleIndex = $(this).index();
+        let className = $(this).parents('.selectBox').attr('value');
+        $(this).toggleClass('on');
+        if($('.select').hasClass('on')){
+        $('.cusView .' + className + '>img').eq(eleIndex).animate({'left':'0'},300);
+        $('.cusView .' + className + '>img').eq(eleIndex).css({'position':'relative'});
+          console.log(className);
+        }
+      }
     }
 
     if(!$(this).hasClass('on')){
       let eleIndex = $(this).index();
       let className = $(this).parents('.selectBox').attr('value');
       $('.cusView .' + className + '>img').eq(eleIndex).animate({'left':'100%'},300);
+      $('.cusView .' + className + '>img').eq(eleIndex).css({'position':'absolute'});
       if(className == 'bun'){
         $('.cusView .' + className + '.bunUp>img').eq(eleIndex).animate({'left':'100%'},300);
         $('.cusView .' + className + '.bunDown>img').eq(eleIndex).animate({'left':'100%'},300);
@@ -111,5 +111,4 @@ $(function(){
       $(this).toggleClass('on');
     }
   });
-
 });
