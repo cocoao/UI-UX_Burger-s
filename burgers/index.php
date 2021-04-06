@@ -22,6 +22,10 @@
   <!-- jquery link -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="/burgers/js/custom.js"></script>
+
+  <meta keywords="헴버거,커스텀,프리미엄">
+  <meta description="프리미엄 커스텀 버거로 취향을 한껏 담은 버거를 맛보세요.">
+  <meta property="og:image" content="">
 </head>
 <body>
   <div class="wrap">

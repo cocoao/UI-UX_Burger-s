@@ -12,7 +12,7 @@
 
 .cusBox .cusSel{width: calc(63% - 20px); margin: 0 10px; height: auto; border: 2px solid #4f6853; border-left: 0; border-right: 0;}
 .cusBox .cusSel .selectBox{display: flex; justify-content: flex-start; flex-wrap: wrap; padding: 10px 5px;}
-.cusBox .cusSel .select{width: calc(33.33% - 10px); _border: 1px solid #4f6853; margin: 5px; position: relative; overflow: hidden; cursor: pointer; transition: all 0.4s;}
+.cusBox .cusSel .select{width: calc(33.33% - 10px); _border: 1px solid #4f6853; margin: 5px; position: relative; overflow: hidden; cursor: pointer; transition: all 0.4s; height: fit-content;}
 .cusBox .cusSel .select img{width: 100%; background: rgba(0,0,0,0.1);}
 .cusBox .cusSel .select .selHover{position: absolute; width: 96%; height: 96%; background: rgba(0,0,0,0.5); color: #fff; top: 0; left: 0; transform: rotateX(-180deg);  display: flex; justify-content: center; align-items: center; opacity: 0; transition: all 0.4s; margin: 2%; border-radius: 8px; cursor: pointer !important;}
 .cusBox .cusSel .select:hover, .cusBox .cusSel .select.click{border-radius: 10px; border: 2px solid #4f6853;}

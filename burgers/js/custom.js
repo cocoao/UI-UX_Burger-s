@@ -59,38 +59,47 @@ $(function(){
     $('.selectBox .select.reset').removeClass('on');
     $(this).toggleClass('on');
 
-    if($(this).hasClass('on')){
     let eleIndex = $(this).index();
     let className = $(this).parents('.selectBox').attr('value');
 
       // remove & insert image when one select tab click
       if($(this).parents('.selectBox').hasClass('selectBox_on')){
-        $(this).toggleClass('on');
-        $('.cusView .' + className + '>img').css({'position':'absolute'});
-        $('.cusView .' + className + '>img').css({'left':'100%'},300);
-        $('.cusView .' + className + '>img').eq(eleIndex).animate({'left':'0'},300);
-        $('.cusView .' + className + '>img').eq(eleIndex).css({'position':'relative'});
+        $('.cusView .' + className + '>img').removeClass('check');
+        $('.cusView .' + className + '>img').eq(eleIndex).toggleClass('check');
 
-        if(className == 'bun'){
-          $('.cusView .' + className + '.bunUp>img').css({'left':'100%'});
-          $('.cusView .' + className + '.bunDown>img').css({'left':'100%'});
-          $('.cusView .' + className + '.bunUp>img').eq(eleIndex).animate({'left':'0'},300);
-          $('.cusView .' + className + '.bunDown>img').eq(eleIndex).animate({'left':'0'},300);
-          $('.cusView .' + className + '.bunUp>img').eq(eleIndex).css({'position':'relative'});
-          $('.cusView .' + className + '.bunDown>img').eq(eleIndex).css({'position':'relative'});
-        }
+        // if($('.cusView .' + className + '>img').hasClass('check')){
+        //   $('.cusView .' + className + '>img').eq(eleIndex).animate({'left':'0'},300);
+        //   $('.cusView .' + className + '>img').eq(eleIndex).css({'position':'relative'});
+        // }
+        // if(!$('.cusView .' + className + '>img').hasClass('check')){
+        //   $('.cusView .' + className + '>img').eq(eleIndex).css({'position':'absolute'});
+        //   $('.cusView .' + className + '>img').eq(eleIndex).animate({'left':'100%'},300);
+        // }
+
+        // if(className == 'bun'){
+        //   $('.cusView .' + className + '.bunUp>img').css({'left':'100%'});
+        //   $('.cusView .' + className + '.bunDown>img').css({'left':'100%'});
+        //   $('.cusView .' + className + '.bunUp>img').eq(eleIndex).animate({'left':'0'},300);
+        //   $('.cusView .' + className + '.bunDown>img').eq(eleIndex).animate({'left':'0'},300);
+        //   $('.cusView .' + className + '.bunUp>img').eq(eleIndex).css({'position':'relative'});
+        //   $('.cusView .' + className + '.bunDown>img').eq(eleIndex).css({'position':'relative'});
+        // }
       }
 
       if($(this).parents('.selectBox').hasClass('selectBox_do')){
         let eleIndex = $(this).index();
         let className = $(this).parents('.selectBox').attr('value');
-        $(this).toggleClass('on');
         if($('.select').hasClass('on')){
         $('.cusView .' + className + '>img').eq(eleIndex).animate({'left':'0'},300);
         $('.cusView .' + className + '>img').eq(eleIndex).css({'position':'relative'});
           console.log(className);
         }
       }
+
+    // view box image delete when no select btn click
+    if($(this).hasClass('reset')){
+      $('.selectBox .select').removeClass('on');
+      // $(this).toggleClass('on');
     }
 
     if(!$(this).hasClass('on')){
@@ -99,16 +108,11 @@ $(function(){
       $('.cusView .' + className + '>img').eq(eleIndex).animate({'left':'100%'},300);
       $('.cusView .' + className + '>img').eq(eleIndex).css({'position':'absolute'});
       if(className == 'bun'){
+        $('.cusView .' + className + '.bunUp>img').eq(eleIndex).css({'position':'absolute'});
+        $('.cusView .' + className + '.bunDown>img').eq(eleIndex).css({'position':'absolute'});
         $('.cusView .' + className + '.bunUp>img').eq(eleIndex).animate({'left':'100%'},300);
         $('.cusView .' + className + '.bunDown>img').eq(eleIndex).animate({'left':'100%'},300);
       }
-    }
-
-    // 다른거 선택하면 선택안함 사라지게
-    // view box image delete when no select btn click
-    if($(this).hasClass('reset')){
-      $('.selectBox .select').removeClass('on');
-      $(this).toggleClass('on');
     }
   });
 });
