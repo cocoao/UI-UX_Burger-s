@@ -75,6 +75,11 @@
             <img src="/burgers/img/cu_view_ve_03.png" alt="view_vegetable">
             <img src="/burgers/img/cu_view_ve_03.png" alt="view_vegetable">
           </div>
+          <div class="topping">
+            <img src="/burgers/img/cu_view_ve_01.png" alt="view_vegetable">
+            <img src="/burgers/img/cu_view_ve_03.png" alt="view_vegetable">
+            <img src="/burgers/img/cu_view_ve_03.png" alt="view_vegetable">
+          </div>
           <div class="bun bunDown">
             <img src="/burgers/img/cu_view_bun_01_02.png" alt="view_bun">
             <img src="/burgers/img/cu_view_bun_01_01.png" alt="view_bun">

@@ -55,64 +55,75 @@ $(function(){
   });
 
   // view box effect
- $('.selectBox .select').click(function(){
-    $('.selectBox .select.reset').removeClass('on');
-    $(this).toggleClass('on');
+//  $('.selectBox.selectBox_on .select').click(function(){
+//   let eleIndex = $(this).index();
+//   let className = $(this).parents('.selectBox').attr('value');
+//   let viewImg = $('.cusView .' + className + '>img');
+//   viewImg.eq(eleIndex).toggleClass('check');
 
-    let eleIndex = $(this).index();
-    let className = $(this).parents('.selectBox').attr('value');
+//   if(viewImg.hasClass('check')){
+//     viewImg.removeClass('check');
+//     viewImg.eq(eleIndex).toggleClass('check');
+//     viewImg.animate({"left":"100%"},300);
+//     viewImg.css({"position":"absolute"});
+//     viewImg.eq(eleIndex).animate({"left":"0"},300);
+//     viewImg.eq(eleIndex).css({"position":"relative"});
+//     if(className == 'bun'){
+//       $('.cusView .' + className + '.bunUp >img').eq(eleIndex).animate({"left":"0"},300);
+//       $('.cusView .' + className + '.bunUp >img').eq(eleIndex).css({"position":"relative"});
+//       $('.cusView .' + className + '.bunDown >img').eq(eleIndex).animate({"left":"0"},300);
+//       $('.cusView .' + className + '.bunDown >img').eq(eleIndex).css({"position":"relative"});
+//     }
+//   }
 
-      // remove & insert image when one select tab click
-      if($(this).parents('.selectBox').hasClass('selectBox_on')){
-        $('.cusView .' + className + '>img').removeClass('check');
-        $('.cusView .' + className + '>img').eq(eleIndex).toggleClass('check');
+//   if(!viewImg.hasClass('check')){
+//     viewImg.eq(eleIndex).animate({"left":"100%"},300,function(){
+//     viewImg.eq(eleIndex).css({"position":"absolute"})
+//     });
+//     if(className == 'bun'){
+//       $('.cusView .' + className + '.bunUp >img').animate({"left":"100%"},300,function(){
+//         $('.cusView .' + className + '.bunUp >img').css({"position":"absolute"});
+//       });
+//       $('.cusView .' + className + '.bunDown >img').animate({"left":"100%"},300,function(){
+//         $('.cusView .' + className + '.bunDown >img').css({"position":"absolute"});
+//       });
+//     }
+//   }
+// });
 
-        // if($('.cusView .' + className + '>img').hasClass('check')){
-        //   $('.cusView .' + className + '>img').eq(eleIndex).animate({'left':'0'},300);
-        //   $('.cusView .' + className + '>img').eq(eleIndex).css({'position':'relative'});
-        // }
-        // if(!$('.cusView .' + className + '>img').hasClass('check')){
-        //   $('.cusView .' + className + '>img').eq(eleIndex).css({'position':'absolute'});
-        //   $('.cusView .' + className + '>img').eq(eleIndex).animate({'left':'100%'},300);
-        // }
-
-        // if(className == 'bun'){
-        //   $('.cusView .' + className + '.bunUp>img').css({'left':'100%'});
-        //   $('.cusView .' + className + '.bunDown>img').css({'left':'100%'});
-        //   $('.cusView .' + className + '.bunUp>img').eq(eleIndex).animate({'left':'0'},300);
-        //   $('.cusView .' + className + '.bunDown>img').eq(eleIndex).animate({'left':'0'},300);
-        //   $('.cusView .' + className + '.bunUp>img').eq(eleIndex).css({'position':'relative'});
-        //   $('.cusView .' + className + '.bunDown>img').eq(eleIndex).css({'position':'relative'});
-        // }
-      }
-
-      if($(this).parents('.selectBox').hasClass('selectBox_do')){
-        let eleIndex = $(this).index();
-        let className = $(this).parents('.selectBox').attr('value');
-        if($('.select').hasClass('on')){
-        $('.cusView .' + className + '>img').eq(eleIndex).animate({'left':'0'},300);
-        $('.cusView .' + className + '>img').eq(eleIndex).css({'position':'relative'});
-          console.log(className);
-        }
-      }
-
-    // view box image delete when no select btn click
-    if($(this).hasClass('reset')){
-      $('.selectBox .select').removeClass('on');
-      // $(this).toggleClass('on');
+$('.selectBox.selectBox_on .select').click(function(){
+  let eleIndex = $(this).index();
+  let className = $(this).parents('.selectBox').attr('value');
+  let viewImg = $('.cusView .' + className + '>img');
+  viewImg.eq(eleIndex).toggleClass('check');
+  if(viewImg.hasClass('check')){
+    viewImg.removeClass('check');
+    viewImg.eq(eleIndex).toggleClass('check');
+    viewImg.eq(eleIndex).css({'animation':'view 0.6s'})
+    if(className == 'bun'){
+      $('.cusView .' + className + '.bunUp >img').eq(eleIndex).addClass('check');
+      $('.cusView .' + className + '.bunDown >img').eq(eleIndex).addClass('check');
     }
+  } else {
+    viewImg.css({'animation':'hide 0.6s'})
+  }
+});
 
-    if(!$(this).hasClass('on')){
-      let eleIndex = $(this).index();
-      let className = $(this).parents('.selectBox').attr('value');
-      $('.cusView .' + className + '>img').eq(eleIndex).animate({'left':'100%'},300);
-      $('.cusView .' + className + '>img').eq(eleIndex).css({'position':'absolute'});
-      if(className == 'bun'){
-        $('.cusView .' + className + '.bunUp>img').eq(eleIndex).css({'position':'absolute'});
-        $('.cusView .' + className + '.bunDown>img').eq(eleIndex).css({'position':'absolute'});
-        $('.cusView .' + className + '.bunUp>img').eq(eleIndex).animate({'left':'100%'},300);
-        $('.cusView .' + className + '.bunDown>img').eq(eleIndex).animate({'left':'100%'},300);
-      }
-    }
-  });
+$('.selectBox.selectBox_do .select').click(function(){
+  let eleIndex = $(this).index();
+  let className = $(this).parents('.selectBox').attr('value');
+  let viewImg = $('.cusView .' + className + '>img');
+
+  viewImg.eq(eleIndex).toggleClass('check');
+
+  // if(viewImg.hasClass('check')){
+  //   viewImg.eq(eleIndex).animate({"left":"0"},300);
+  //   viewImg.eq(eleIndex).css({"position":"relative"});
+  // }
+  // else {
+  //   viewImg.eq(eleIndex).animate({"left":"100%"},300,function(){
+  //   viewImg.eq(eleIndex).css({"position":"absolute"})
+  //   });
+  // }
+});
 });

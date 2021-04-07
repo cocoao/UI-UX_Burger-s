@@ -35,3 +35,12 @@
   93%{opacity: 0;}
   100%{content:"Bun"; opacity: 1;}
 }
+
+@keyframes view{
+  0%{left: 100%;}
+  100%{left: 0;}
+}
+@keyframes hide{
+  0%{left: 0;}
+  100%{left: 100%;}
+}

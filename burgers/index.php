@@ -23,15 +23,21 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="/burgers/js/custom.js"></script>
 
-  <meta keywords="헴버거,커스텀,프리미엄">
-  <meta description="프리미엄 커스텀 버거로 취향을 한껏 담은 버거를 맛보세요.">
-  <meta property="og:image" content="">
+  <!-- seo meta tag -->
+  <meta name="keywords" content="햄버거,커스텀,프리미엄">
+  <meta name="description" content="프리미엄 커스텀 버거로 취향을 한껏 담은 버거를 맛보세요.">
+  <meta property="og:title" content="프리미엄 커스텀 햄버거 BURGER'S">
+  <meta property="og:description" content="프리미엄 커스텀 햄버거 BURGER'S에서 나만의 버거를 만나보세요.">
+  <meta property="og:image" content="/burgers/img/og_image.png">
+  <meta property="og:width" content="200">
+  <meta property="og:height" content="200">
 </head>
 <body>
   <div class="wrap">
     <?php
       include $_SERVER['DOCUMENT_ROOT']."/burgers/include/header.php"
     ?>
+    <!-- main image section -->
     <section class="mainImg">
       <div class="txtBox">
         <h2>PREMIUM <br>CUSTOM BURGER</h2>
@@ -47,6 +53,7 @@
         </div>
       </div>
     </section>
+    <!-- main how to / sns section -->
     <section class="howSns">
       <div class="howBox">
         <div class="howTit">
