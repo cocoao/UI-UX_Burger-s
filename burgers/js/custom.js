@@ -95,17 +95,13 @@ $('.selectBox.selectBox_on .select').click(function(){
   let eleIndex = $(this).index();
   let className = $(this).parents('.selectBox').attr('value');
   let viewImg = $('.cusView .' + className + '>img');
-  viewImg.eq(eleIndex).toggleClass('check');
-  if(viewImg.hasClass('check')){
-    viewImg.removeClass('check');
-    viewImg.eq(eleIndex).toggleClass('check');
-    viewImg.eq(eleIndex).css({'animation':'view 0.6s'})
-    if(className == 'bun'){
-      $('.cusView .' + className + '.bunUp >img').eq(eleIndex).addClass('check');
-      $('.cusView .' + className + '.bunDown >img').eq(eleIndex).addClass('check');
-    }
+  viewImg.eq(eleIndex).toggleClass('check').siblings().removeClass('check');
+  
+  if($('.bunUp>img').eq(eleIndex).hasClass('check')){
+    $('.cusView .bunDown>img').removeClass('check');
+    $('.cusView .bunDown>img').eq(eleIndex).addClass('check');
   } else {
-    viewImg.css({'animation':'hide 0.6s'})
+    $('.cusView .bunDown>img').eq(eleIndex).removeClass('check');
   }
 });
 

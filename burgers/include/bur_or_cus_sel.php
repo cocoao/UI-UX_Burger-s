@@ -6,27 +6,27 @@
     </label>
   </div>
   <div class="select">
-    <img src="/burgers/img/cu_bun_02.png" alt="bun_02">
-    <label class="selHover" for="참깨번">참깨번
-      <input type="radio" id="참깨번">
-    </label>
-  </div>
-  <div class="select">
     <img src="/burgers/img/cu_bun_03.png" alt="bun_03">
     <label class="selHover" for="호밀번">호밀번
       <input type="radio" id="호밀번">
     </label>
   </div>
   <div class="select">
-    <img src="/burgers/img/cu_bun_04.png" alt="bun_04">
-    <label class="selHover" for="먹물번">먹물번
-      <input type="radio" id="먹물번">
+    <img src="/burgers/img/cu_bun_02.png" alt="bun_02">
+    <label class="selHover" for="참깨번">참깨번
+      <input type="radio" id="참깨번">
     </label>
   </div>
   <div class="select">
     <img src="/burgers/img/cu_bun_05.png" alt="bun_05">
-    <label class="selHover" for="먹물참깨번">먹물참깨번
-      <input type="radio" id="먹물참깨번">
+    <label class="selHover" for="검은깨번">검은깨번
+      <input type="radio" id="검은깨번">
+    </label>
+  </div>
+  <div class="select">
+    <img src="/burgers/img/cu_bun_04.png" alt="bun_04">
+    <label class="selHover" for="먹물번">먹물번
+      <input type="radio" id="먹물번">
     </label>
   </div>
 </div>

@@ -61,28 +61,38 @@
       </div>
       <div class="viewPay">
         <div class="cusView">
-          <div class="bun bunUp">
+          <div class="bun bunUp one">
             <img src="/burgers/img/cu_view_bun_01_01.png" alt="view_bun">
             <img src="/burgers/img/cu_view_bun_01_02.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_01_01.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_01_01.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_01_01.png" alt="view_bun">
           </div>
-          <div class="patty">
+          <div class="patty one">
             <img src="/burgers/img/cu_view_pa_01.png" alt="view_patty">
             <img src="/burgers/img/cu_view_bun_01_02.png" alt="view_bun">
+            
           </div>
-          <div class="cheese"><img src="/burgers/img/cu_view_ch_01.png" alt="view_cheese"></div>
-          <div class="vegetable">
+          <div class="cheese one">
+            <img src="/burgers/img/cu_view_ch_01.png" alt="view_cheese">
+          </div>
+          <div class="vegetable more">
             <img src="/burgers/img/cu_view_ve_01.png" alt="view_vegetable">
             <img src="/burgers/img/cu_view_ve_03.png" alt="view_vegetable">
             <img src="/burgers/img/cu_view_ve_03.png" alt="view_vegetable">
           </div>
-          <div class="topping">
+          <div class="topping more">
             <img src="/burgers/img/cu_view_ve_01.png" alt="view_vegetable">
             <img src="/burgers/img/cu_view_ve_03.png" alt="view_vegetable">
             <img src="/burgers/img/cu_view_ve_03.png" alt="view_vegetable">
           </div>
-          <div class="bun bunDown">
+          <div class="bun bunDown more">
             <img src="/burgers/img/cu_view_bun_01_02.png" alt="view_bun">
             <img src="/burgers/img/cu_view_bun_01_01.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_01_02.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_01_02.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_01_02.png" alt="view_bun">
+
           </div>
         </div>
         <div class="cusPay">
@@ -107,8 +117,9 @@
             <p class="beverage"></p>
           </div>
           <div class="paySum">
-            <p>총 결제 금액</p>
-            <em>18,000원</em>
+            <p>총 결제 금액<em>18,000원</em></p>
+            
+            <button>주문하기</button>
           </div>
         </div>
       </div>
