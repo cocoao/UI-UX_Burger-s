@@ -31,7 +31,7 @@
     <section class="pageNav">
       <a href="#">HOW TO</a>
       <a href="#">RECOMMEND</a>
-      <a href="#">CUSTOM</a>
+      <a href="#" class="active">CUSTOM</a>
     </section>
     <section class="cusBox">
       <div class="title">
@@ -117,7 +117,7 @@
             <p class="beverage"></p>
           </div>
           <div class="paySum">
-            <p>총 결제 금액<em>18,000원</em></p>
+            <p>총 결제 금액<em>0원</em></p>
             
             <button>주문하기</button>
           </div>
