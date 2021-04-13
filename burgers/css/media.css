@@ -20,6 +20,9 @@
   .cusBox .viewPay .cusPay .paySum{justify-content: center; text-align: center;}
   .cusBox .viewPay .cusPay .paySum p{width: 100%;}
   .cusBox .viewPay .cusPay .paySum button{padding: 3px 15px; width: 100%;}
+
+  /* recommend order page */
+  .recBoxes .reBox .reHover button{width: 35%;}
 }
 
 @media screen and (max-width : 950px){
@@ -37,6 +40,9 @@
   /* custom order page */
   .pageNav a{width: 25%;}
   .cusBox{width: 90%;}
+
+  /* recommend order page */
+  .recBoxes{width: 90%;}
 }
 
 @media screen and (max-width : 750px){
@@ -78,6 +84,11 @@
   .cusBox .viewPay .cusPay .paySum button{width: 20%; padding: 5px 15px;}
   .cusBox .viewPay .cusPay .payList,.cusBox .viewPay .cusPay .selList{height: auto;}
   .cusBox .viewPay .cusPay .payList p, .cusBox .viewPay .cusPay .selList p{height: 15%; padding: 7px 5px;}
+
+  /* recommend order page */
+  .recBoxes .reBox{width: 49%; margin-bottom: 10px;}
+  .recBoxes .reBox .reHover button{padding: 6px 0;}
+  .recBoxes .reBox .reHover button p{font-size: 12px;}
 }
 
 @media screen and (max-width : 480px){
