@@ -29,7 +29,7 @@
       include $_SERVER['DOCUMENT_ROOT']."/burgers/include/header.php"
     ?>
     <section class="pageNav">
-      <a href="#">HOW TO</a>
+      <a href="/burgers/pages/bug_or_how.php">HOW TO</a>
       <a href="/burgers/pages/bug_or_re.php">RECOMMEND</a>
       <a href="/burgers/pages/bug_or_cus.php" class="active">CUSTOM</a>
     </section>

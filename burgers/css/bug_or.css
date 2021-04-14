@@ -54,3 +54,18 @@
 .recBoxes .reBox:hover .reHover{opacity: 1; border-radius: 10px}
 .recBoxes .reBox .reHover button:hover{transform: rotateY(0deg); border: 2px solid #fff;}
 .recBoxes .reBox .reHover button:hover p{transform: rotateY(0deg);}
+
+/* how to page style */
+.howBoxes{width: 80%; height: auto; margin: 50px auto;}
+.howBoxes .howBox{width: 100%; display: flex; align-items: center;}
+.howBoxes .howBox .imgBox{width: 20%; display: flex; justify-content: center; align-items: center; padding: 30px;}
+.howBoxes .howBox .imgBox img{width: 100%;}
+.howBoxes .howBox .eleBox{width: 75%; margin-left: 5%;}
+.howBoxes .howBox .eleSelBox{width: 80%; display: flex; flex-direction: row;}
+.howBoxes .howBox .eleSelBox .howSel{display: flex; justify-content: center; align-items: center; margin-left: 10px; flex-direction: column; width: 40%;}
+.howBoxes .howBox .eleSelBox .howSel h4{margin: 5px 0;}
+.howBoxes .howBox .eleSelBox .howSel span{text-align: center; width: 100%;}
+.howBoxes .howBox .eleBox h4{font-size: 34px; font-weight: 300; color: #4f6853; margin: 10px 0; position: relative;}
+.howBoxes .howBox .eleBox h4 i{font-size: 12px; background: #4f6853; color: #fff; font-weight: 500; border-radius: 0 10px 10px 0; font-style: normal; padding: 3px 15px 3px 10px; margin: 0 0 10px 10px; position: absolute; top: 5px;}
+.howBoxes .howBox .eleBox span{padding: 5px 20px; border: 1px solid #4f6853; border-radius: 20px; font-size: 14px; color: #4f6853; margin-right: 5px;}
+.howBoxes .howBox .eleBox span:hover{background: #4f6853; color: #fff;}

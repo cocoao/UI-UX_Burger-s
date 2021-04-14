@@ -29,39 +29,39 @@
       include $_SERVER['DOCUMENT_ROOT']."/burgers/include/header.php"
     ?>
     <section class="pageNav">
-      <a href="/burgers/pages/bug_or_how.php">HOW TO</a>
-      <a href="/burgers/pages/bug_or_re.php" class="active">RECOMMEND</a>
+      <a href="/burgers/pages/bug_or_how.php" class="active">HOW TO</a>
+      <a href="/burgers/pages/bug_or_re.php">RECOMMEND</a>
       <a href="/burgers/pages/bug_or_cus.php">CUSTOM</a>
     </section>
-    <section class="recBoxes">
-      <div class="reBox">
-        <div class="reHover">
-          <button><p>자세히보기</p></button>
-          <button><p>주문하기</p></button>
-        </div>
+    <section class="howBoxes">
+      <div class="howBox">
         <div class="imgBox">
-          <p>포크버거</p>
-          <img src="/burgers/img/ex_burger_01.png" alt="recommend_burger_01">
+          <img src="/burgers/img/howto_burger_8.png" alt="how_to_image">
+        </div>
+        <div class="eleSelBox eleBox">
+          <div class="howSel">
+            <h4>RECOMMAND</h4>
+            <span>BURGER'S에서 조합한 메뉴를 맛보기</span>
+          </div>
+          <div class="howSel">
+            <h4>CUSTOM</h4>
+            <span>나만의 조합 만들기</span>
+          </div>
         </div>
       </div>
-      <div class="reBox">
-        <div class="reHover">
-          <button><p>자세히보기</p></button>
-          <button><p>주문하기</p></button>
-        </div>
+      <div class="howBox">
         <div class="imgBox">
-          <p>포크버거</p>
-          <img src="/burgers/img/ex_burger_02.png" alt="recommend_burger_01">
+          <img src="/burgers/img/howto_burger_1.png" alt="how_to_image">
         </div>
-      </div>
-      <div class="reBox">
-        <div class="reHover">
-          <button><p>자세히보기</p></button>
-          <button><p>주문하기</p></button>
-        </div>
-        <div class="imgBox">
-          <p>포크버거</p>
-          <img src="/burgers/img/ex_burger_03.png" alt="recommend_burger_01">
+        <div class="eleBox">
+          <h4>BURGER BUN<i>필수 1개 선택</i></h4>
+          <div>
+            <span>통밀번</span>
+            <span>호밀번</span>
+            <span>참깨번</span>
+            <span>검은깨번</span>
+            <span>먹물번</span>
+          </div>
         </div>
       </div>
     </section>
