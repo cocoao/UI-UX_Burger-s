@@ -67,5 +67,6 @@
 .howBoxes .howBox .eleSelBox .howSel span{text-align: center; width: 100%;}
 .howBoxes .howBox .eleBox h4{font-size: 34px; font-weight: 300; color: #4f6853; margin: 10px 0; position: relative;}
 .howBoxes .howBox .eleBox h4 i{font-size: 12px; background: #4f6853; color: #fff; font-weight: 500; border-radius: 0 10px 10px 0; font-style: normal; padding: 3px 15px 3px 10px; margin: 0 0 10px 10px; position: absolute; top: 5px;}
-.howBoxes .howBox .eleBox span{padding: 5px 20px; border: 1px solid #4f6853; border-radius: 20px; font-size: 14px; color: #4f6853; margin-right: 5px;}
+.howBoxes .howBox .eleBox>div{display: flex; flex-wrap: wrap;}
+.howBoxes .howBox .eleBox span{padding: 5px 20px; border: 1px solid #4f6853; border-radius: 20px; font-size: 14px; color: #4f6853; margin: 0 5px 5px 0;}
 .howBoxes .howBox .eleBox span:hover{background: #4f6853; color: #fff;}

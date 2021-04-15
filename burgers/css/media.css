@@ -23,6 +23,10 @@
 
   /* recommend order page */
   .recBoxes .reBox .reHover button{width: 35%;}
+
+  /* how to order page */
+  .howBoxes .howBox .eleSelBox .howSel{width: 40%;}
+  .howBoxes .howBox .imgBox{padding: 20px;}
 }
 
 @media screen and (max-width : 950px){
@@ -43,6 +47,11 @@
 
   /* recommend order page */
   .recBoxes{width: 90%;}
+
+  /* how to order page */
+  .howBoxes{width: 90%;}
+  .howBoxes .howBox{margin: 10px 0;}
+  .howBoxes .howBox .eleBox span{font-size: 12px; padding: 3px 15px;}
 }
 
 @media screen and (max-width : 750px){
@@ -89,6 +98,17 @@
   .recBoxes .reBox{width: 49%; margin-bottom: 10px;}
   .recBoxes .reBox .reHover button{padding: 6px 0;}
   .recBoxes .reBox .reHover button p{font-size: 12px;}
+
+  /* how to order page */
+  .howBoxes{margin: 30px 0;}
+  .howBoxes .howBox{margin: 30px 0;}
+  .howBoxes .howBox .imgBox{padding: 10px;}
+  .howBoxes .howBox .eleBox h4{font-size: 28px; margin: 5px 0;}
+  .howBoxes .howBox .eleBox h4 i{font-size: 10px;}
+
+  .howBoxes .howBox .eleSelBox{flex-direction: column;}
+  .howBoxes .howBox .eleSelBox .howSel{width: 100%; flex-direction: row; justify-content: flex-start;}
+  .howBoxes .howBox .eleSelBox .howSel span{width: auto; margin-left: 10px;}
 }
 
 @media screen and (max-width : 480px){
@@ -112,4 +132,12 @@
   .cusBox .cusNav button{padding: 5px 0;}
   .cusBox .viewPay .cusPay .paySum p{width: 70%;}
   .cusBox .viewPay .cusPay .paySum button{width: 30%;}
+
+  /* how to order page */
+  .howBoxes .howBox{flex-wrap: wrap; justify-content: center; margin: 50px 0;}
+  .howBoxes .howBox .eleBox{width: 100%; justify-content: center;}
+  .howBoxes .howBox .imgBox{width: 30%;}
+  .howBoxes .howBox .eleBox>div{justify-content: center;}
+  .howBoxes .howBox .eleBox h4{text-align: center;}
+  .howBoxes .howBox .eleBox h4 i{display: none;}
 }
