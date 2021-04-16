@@ -1,6 +1,6 @@
 <header>
   <div class="navBox">
-    <a href="#" class="nav">
+    <a href="/burgers/pages/bug_is.php" class="nav">
       <p>BURGER'S <i> is</i></p>
       <p class="navHover">BURGER'S <i> is</i></p>
     </a>

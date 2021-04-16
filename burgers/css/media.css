@@ -42,7 +42,7 @@
   .howSns .howBox .howCon .step p{font-size: 12px;}
 
   /* custom order page */
-  .pageNav a{width: 25%;}
+  .pageNav a{width: 30%;}
   .cusBox{width: 90%;}
 
   /* recommend order page */
@@ -140,4 +140,7 @@
   .howBoxes .howBox .eleBox>div{justify-content: center;}
   .howBoxes .howBox .eleBox h4{text-align: center;}
   .howBoxes .howBox .eleBox h4 i{display: none;}
+
+  /* is page */
+  .pageIs a{width: 25%; margin: 0 10px;}
 }
