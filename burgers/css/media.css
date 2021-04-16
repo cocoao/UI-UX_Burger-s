@@ -27,6 +27,8 @@
   /* how to order page */
   .howBoxes .howBox .eleSelBox .howSel{width: 40%;}
   .howBoxes .howBox .imgBox{padding: 20px;}
+
+  .useImg img{width: auto; height: 100%;}
 }
 
 @media screen and (max-width : 950px){
@@ -52,6 +54,16 @@
   .howBoxes{width: 90%;}
   .howBoxes .howBox{margin: 10px 0;}
   .howBoxes .howBox .eleBox span{font-size: 12px; padding: 3px 15px;}
+
+  /* info page */
+  .isSection{width: 90%;}
+  .isImg{width: 50%;}
+  .isTxt{width: 50%;}
+  .isTxt .sectionTit p{padding: 0 15px;}
+  .isTxt h3{padding: 20px 15px;}
+  .useImg{margin: 0;}
+  .isTxt .sectionTit{width: 120%;}
+  .mapBox .isTxt .sectionTit p{padding: 5px 15px;}
 }
 
 @media screen and (max-width : 750px){
@@ -109,6 +121,22 @@
   .howBoxes .howBox .eleSelBox{flex-direction: column;}
   .howBoxes .howBox .eleSelBox .howSel{width: 100%; flex-direction: row; justify-content: flex-start;}
   .howBoxes .howBox .eleSelBox .howSel span{width: auto; margin-left: 10px;}
+
+  /* info page */
+  .isImg{position: relative; height: 50vh; width: 40%;}
+  .isImg img{position:absolute; top: 50%; transform: translateY(-50%); width: auto; right: 0; height: 100%;}
+  .isTxt{width: 60%;}
+  .isTxt h3{font-size: 30px;}
+  .isTxt p{font-size: 12px; line-height: 1.5;}
+
+  .useBoxes .isTxt{width: 50%;}
+  .useImg{flex-wrap: wrap; width: 50%; height: auto;}
+  .useImg .imgBox{width: 100%;height: 100px; margin: 5px 0;}
+  .useImg .imgBox img{transform: rotate(90deg); height: 320%; top: -110%; left: 32%;}
+  .useImg .imgBox .useHover{display: none;}
+  .mapBox .isTxt .spotBox{width: 60%;}
+  .mapBox .isTxt .spotBox button{width: 15%;}
+  .mapBox .isTxt .spotBox input{padding: 5px 10px;}
 }
 
 @media screen and (max-width : 480px){
@@ -143,4 +171,7 @@
 
   /* is page */
   .pageIs a{width: 25%; margin: 0 10px;}
+  .useBoxes .isTxt{width: 70%;}
+  .useImg{width: 30%;}
+  .useImg .imgBox{border: 30px;}
 }

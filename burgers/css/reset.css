@@ -21,7 +21,7 @@ a{text-decoration: none; color: #333;}
 img{display: block;}
 button, input, textarea, select{outline: 0; font-family: 'Open Sans'; _-webkit-appearance:none; cursor: pointer;}
 input::placeholder, textarea::placeholder{color: #555;}
-input:focus, textarea:focus{background: #eee;}
+input:focus, textarea:focus{background: #eee; outline: 0; border: 0;}
 input[type=radio]:not(old){margin:0; padding:0; opacity:0; width:96%; height: 96%; position: absolute;} 
 input[type=checkbox]:not(old){margin:0; padding:0; opacity:0; width:96%; height: 96%; position: absolute;} 
 
