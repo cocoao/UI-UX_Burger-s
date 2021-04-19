@@ -83,4 +83,12 @@ $('.pageIs a').click(function(){
   console.log(infoTop);
   $('body,html').animate({scrollTop:infoTop})
 });
+
+const pathName = window.location.pathname;
+if(pathName.includes('bug_is')){
+  $('.navBox .nav').eq(0).find('.navHover').addClass('active');
+}
+if(pathName.includes('bug_or')){
+  $('.navBox .nav').eq(1).find('.navHover').addClass('active');
+}
 });
