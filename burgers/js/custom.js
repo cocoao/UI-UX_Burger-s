@@ -66,6 +66,9 @@ $('.selectBox.selectBox_on .select').click(function(){
   } else {
     $('.cusView .bunDown>img').eq(eleIndex).removeClass('check');
   }
+  if($(this).hasClass('reset')){
+    viewImg.removeClass('check');
+  }
 });
 
 $('.selectBox.selectBox_do .select').click(function(){
@@ -75,6 +78,9 @@ $('.selectBox.selectBox_do .select').click(function(){
 
   viewImg.eq(eleIndex).toggleClass('check');
 
+  if($(this).hasClass('reset')){
+    viewImg.removeClass('check');
+  }
 });
 
 $('.pageIs a').click(function(){
@@ -82,6 +88,7 @@ $('.pageIs a').click(function(){
   const infoTop = $('section').eq(navIndex + 1).offset().top;
   console.log(infoTop);
   $('body,html').animate({scrollTop:infoTop})
+  
 });
 
 const pathName = window.location.pathname;

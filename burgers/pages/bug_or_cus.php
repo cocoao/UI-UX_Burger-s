@@ -62,16 +62,19 @@
       <div class="viewPay">
         <div class="cusView">
           <div class="bun bunUp one">
-            <img src="/burgers/img/cu_view_bun_01_01.png" alt="view_bun">
-            <img src="/burgers/img/cu_view_bun_01_02.png" alt="view_bun">
-            <img src="/burgers/img/cu_view_bun_01_01.png" alt="view_bun">
-            <img src="/burgers/img/cu_view_bun_01_01.png" alt="view_bun">
-            <img src="/burgers/img/cu_view_bun_01_01.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_up_1.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_up_2.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_up_3.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_up_4.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_up_5.png" alt="view_bun">
           </div>
           <div class="patty one">
-            <img src="/burgers/img/cu_view_pa_01.png" alt="view_patty">
-            <img src="/burgers/img/cu_view_bun_01_02.png" alt="view_bun">
-            
+            <img src="/burgers/img/cu_view_patty_1.png" alt="view_patty">
+            <img src="/burgers/img/cu_view_patty_2.png" alt="view_patty">
+            <img src="/burgers/img/cu_view_patty_3.png" alt="view_patty">
+            <img src="/burgers/img/cu_view_patty_4.png" alt="view_patty">
+            <img src="/burgers/img/cu_view_patty_5.png" alt="view_patty">
+            <img src="/burgers/img/cu_view_patty_6.png" alt="view_patty">
           </div>
           <div class="cheese one">
             <img src="/burgers/img/cu_view_ch_01.png" alt="view_cheese">
@@ -87,11 +90,11 @@
             <img src="/burgers/img/cu_view_ve_03.png" alt="view_vegetable">
           </div>
           <div class="bun bunDown more">
-            <img src="/burgers/img/cu_view_bun_01_02.png" alt="view_bun">
-            <img src="/burgers/img/cu_view_bun_01_01.png" alt="view_bun">
-            <img src="/burgers/img/cu_view_bun_01_02.png" alt="view_bun">
-            <img src="/burgers/img/cu_view_bun_01_02.png" alt="view_bun">
-            <img src="/burgers/img/cu_view_bun_01_02.png" alt="view_bun">
+          <img src="/burgers/img/cu_view_bun_down_1.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_down_2.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_down_3.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_down_4.png" alt="view_bun">
+            <img src="/burgers/img/cu_view_bun_down_5.png" alt="view_bun">
 
           </div>
         </div>
