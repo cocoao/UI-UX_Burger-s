@@ -77,17 +77,40 @@
             <img src="/burgers/img/cu_view_patty_6.png" alt="view_patty">
           </div>
           <div class="cheese one">
-            <img src="/burgers/img/cu_view_ch_01.png" alt="view_cheese">
+            <img src="/burgers/img/cu_view_cheese_1.png" alt="view_cheese">
+            <img src="/burgers/img/cu_view_cheese_2.png" alt="view_cheese">
+            <img src="/burgers/img/cu_view_cheese_3.png" alt="view_cheese">
           </div>
           <div class="vegetable more">
-            <img src="/burgers/img/cu_view_ve_01.png" alt="view_vegetable">
-            <img src="/burgers/img/cu_view_ve_03.png" alt="view_vegetable">
-            <img src="/burgers/img/cu_view_ve_03.png" alt="view_vegetable">
+            <img src="/burgers/img/cu_view_veg_1.png" alt="view_vegetable">
+            <img src="/burgers/img/cu_view_veg_2.png" alt="view_vegetable">
+            <img src="/burgers/img/cu_view_veg_3.png" alt="view_vegetable">
+            <img src="/burgers/img/cu_view_veg_4.png" alt="view_vegetable">
+            <img src="/burgers/img/cu_view_veg_5.png" alt="view_vegetable">
+            <img src="/burgers/img/cu_view_veg_6.png" alt="view_vegetable">
+            <img src="/burgers/img/cu_view_veg_7.png" alt="view_vegetable">
+            <img src="/burgers/img/cu_view_veg_8.png" alt="view_vegetable">
           </div>
           <div class="topping more">
-            <img src="/burgers/img/cu_view_ve_01.png" alt="view_vegetable">
-            <img src="/burgers/img/cu_view_ve_03.png" alt="view_vegetable">
-            <img src="/burgers/img/cu_view_ve_03.png" alt="view_vegetable">
+            <img src="/burgers/img/cu_view_topp_1.png" alt="view_topping">
+            <img src="/burgers/img/cu_view_topp_2.png" alt="view_topping">
+            <img src="/burgers/img/cu_view_topp_3.png" alt="view_topping">
+            <img src="/burgers/img/cu_view_topp_4.png" alt="view_topping">
+            <img src="/burgers/img/cu_view_topp_5.png" alt="view_topping">
+            <img src="/burgers/img/cu_view_topp_6.png" alt="view_topping">
+            <img src="/burgers/img/cu_view_topp_7.png" alt="view_topping">
+            <img src="/burgers/img/cu_view_topp_8.png" alt="view_topping">
+          </div>
+          <div class="sauce more">
+            <img src="/burgers/img/cu_view_sauce_1.png" alt="view_sauce">
+            <img src="/burgers/img/cu_view_sauce_2.png" alt="view_sauce">
+            <img src="/burgers/img/cu_view_sauce_3.png" alt="view_sauce">
+            <img src="/burgers/img/cu_view_sauce_4.png" alt="view_sauce">
+            <img src="/burgers/img/cu_view_sauce_5.png" alt="view_sauce">
+            <img src="/burgers/img/cu_view_sauce_6.png" alt="view_sauce">
+            <img src="/burgers/img/cu_view_sauce_7.png" alt="view_sauce">
+            <img src="/burgers/img/cu_view_sauce_8.png" alt="view_sauce">
+            <img src="/burgers/img/cu_view_sauce_9.png" alt="view_sauce">
           </div>
           <div class="bun bunDown more">
           <img src="/burgers/img/cu_view_bun_down_1.png" alt="view_bun">
@@ -95,7 +118,6 @@
             <img src="/burgers/img/cu_view_bun_down_3.png" alt="view_bun">
             <img src="/burgers/img/cu_view_bun_down_4.png" alt="view_bun">
             <img src="/burgers/img/cu_view_bun_down_5.png" alt="view_bun">
-
           </div>
         </div>
         <div class="cusPay">
