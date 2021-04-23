@@ -40,8 +40,8 @@
           <button><p>주문하기</p></button>
         </div>
         <div class="imgBox">
-          <p>포크버거</p>
-          <img src="/burgers/img/ex_burger_01.png" alt="recommend_burger_01">
+          <p>버거스 버거</p>
+          <img src="/burgers/img/or_re_01.png" alt="recommend_burger_01">
         </div>
       </div>
       <div class="reBox">
@@ -50,8 +50,8 @@
           <button><p>주문하기</p></button>
         </div>
         <div class="imgBox">
-          <p>포크버거</p>
-          <img src="/burgers/img/ex_burger_02.png" alt="recommend_burger_01">
+          <p>더블블랙 버거</p>
+          <img src="/burgers/img/or_re_02.png" alt="recommend_burger_02">
         </div>
       </div>
       <div class="reBox">
@@ -60,10 +60,111 @@
           <button><p>주문하기</p></button>
         </div>
         <div class="imgBox">
-          <p>포크버거</p>
-          <img src="/burgers/img/ex_burger_03.png" alt="recommend_burger_01">
+          <p>그린 버거</p>
+          <img src="/burgers/img/or_re_03.png" alt="recommend_burger_03">
         </div>
       </div>
+      <div class="reBox">
+        <div class="reHover">
+          <button><p>자세히보기</p></button>
+          <button><p>주문하기</p></button>
+        </div>
+        <div class="imgBox">
+          <p>비프 버거</p>
+          <img src="/burgers/img/or_re_04.png" alt="recommend_burger_04">
+        </div>
+      </div>
+      <div class="reBox">
+        <div class="reHover">
+          <button><p>자세히보기</p></button>
+          <button><p>주문하기</p></button>
+        </div>
+        <div class="imgBox">
+          <p>포크 버거</p>
+          <img src="/burgers/img/or_re_05.png" alt="recommend_burger_05">
+        </div>
+      </div>
+      <div class="reBox">
+        <div class="reHover">
+          <button><p>자세히보기</p></button>
+          <button><p>주문하기</p></button>
+        </div>
+        <div class="imgBox">
+          <p>치킨 버거</p>
+          <img src="/burgers/img/or_re_06.png" alt="recommend_burger_06">
+        </div>
+      </div>
+      <div class="reBox">
+        <div class="reHover">
+          <button><p>자세히보기</p></button>
+          <button><p>주문하기</p></button>
+        </div>
+        <div class="imgBox">
+          <p>더블베지 버거</p>
+          <img src="/burgers/img/or_re_07.png" alt="recommend_burger_07">
+        </div>
+      </div>
+      <div class="reBox">
+        <div class="reHover">
+          <button><p>자세히보기</p></button>
+          <button><p>주문하기</p></button>
+        </div>
+        <div class="imgBox">
+          <p>베이컨 버거</p>
+          <img src="/burgers/img/or_re_08.png" alt="recommend_burger_08">
+        </div>
+      </div>
+      <div class="reBox">
+        <div class="reHover">
+          <button><p>자세히보기</p></button>
+          <button><p>주문하기</p></button>
+        </div>
+        <div class="imgBox">
+          <p>에그 버거</p>
+          <img src="/burgers/img/or_re_09.png" alt="recommend_burger_09">
+        </div>
+      </div>
+      <div class="reBox">
+        <div class="reHover">
+          <button><p>자세히보기</p></button>
+          <button><p>주문하기</p></button>
+        </div>
+        <div class="imgBox">
+          <p>슬림 버거</p>
+          <img src="/burgers/img/or_re_10.png" alt="recommend_burger_10">
+        </div>
+      </div>
+      <div class="reBox">
+        <div class="reHover">
+          <button><p>자세히보기</p></button>
+          <button><p>주문하기</p></button>
+        </div>
+        <div class="imgBox">
+          <p>머쉬룸 버거</p>
+          <img src="/burgers/img/or_re_11.png" alt="recommend_burger_11">
+        </div>
+      </div>
+      <div class="reBox">
+        <div class="reHover">
+          <button><p>자세히보기</p></button>
+          <button><p>주문하기</p></button>
+        </div>
+        <div class="imgBox">
+          <p>더블치즈 버거</p>
+          <img src="/burgers/img/or_re_12.png" alt="recommend_burger_12">
+        </div>
+      </div>
+      <div class="reBox">
+        <div class="reHover">
+          <button><p>자세히보기</p></button>
+          <button><p>주문하기</p></button>
+        </div>
+        <div class="imgBox">
+          <p>피클 버거</p>
+          <img src="/burgers/img/or_re_13.png" alt="recommend_burger_13">
+        </div>
+      </div>
+    
     </section>
   </div>
   <?php
